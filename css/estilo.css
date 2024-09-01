@@ -1,9 +1,38 @@
-h1 {
-  color: aquamarine;
+.Logo-principal {
+  width: 10%;
+  height: auto;
 }
 
-h2 {
-  color: #0000ff;
+.headerindex {
+  background-image: url(../imagenes/Imagen-principal-de-una-playa.jpg);
+}
+
+.headersudamerica {
+  background-image: url(../imagenes/background-sudamerica.jpg);
+}
+
+.headereuropa {
+  background-image: url(../imagenes/background-europa.jpg);
+}
+
+.headerespana {
+  background-image: url(../imagenes/Barcelona-Espana.jpg);
+}
+
+.headercontacto {
+  background-image: url(../imagenes/Concactenos.jpg);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: space-between;
+  height: 50vh;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=estilo.css.map */

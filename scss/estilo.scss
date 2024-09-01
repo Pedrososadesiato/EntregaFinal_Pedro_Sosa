@@ -1,5 +1,2 @@
-h1{
-    color: aquamarine;
-}
-
-@import "./layout/header"
+@import "./layout/header";
+@import "./utilities/extends";
