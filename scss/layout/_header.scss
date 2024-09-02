@@ -33,3 +33,19 @@ background-image: url(../imagenes/background-europa.jpg);
     background-image:url(../imagenes/Concactenos.jpg);
 }
 
+@media only screen and (min-width:501px){
+
+    .Logo-principal{
+        width: 20%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width:1024px){
+
+    .Logo-principal{
+        width: 15%;
+        height: auto;
+    }
+
+}
