@@ -75,25 +75,47 @@ h1, h2 {
 }
 
 .contenedor-imagenes-principales {
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 10px;
-}
-
-.linkimgespana, .linkimgsudamerica, .linkimgeuropa {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
 }
 
-.linkimgespana, .linkimgsudamerica, .linkimgeuropa {
-  width: 90%;
-  margin: 0 auto;
+.linkimg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.linkimg img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.linktexto {
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 501px) {
   .imagenprincipal {
     width: 400px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .contenedor-imagenes-principales {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .contenedor-imagenes-principales .linkimg {
+    width: calc(33.33% - 20px);
+    margin-bottom: 0;
     height: auto;
   }
 }
