@@ -46,17 +46,18 @@
         align-items: center;
         margin-bottom: 20px;
         
-    img{
+    img, a{
         width: 100%;
         max-width: 300px;
         height: auto;
         object-fit: cover;
+        border: 3px solid black;
     
     }
     }
 
 
-    
+
 
    .linktexto{
     color: #000000;

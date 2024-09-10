@@ -1,3 +1,7 @@
+header h1 {
+  color: 0;
+}
+
 .Logo-principal {
   width: 30%;
   height: auto;
@@ -86,11 +90,12 @@ h1, h2 {
   align-items: center;
   margin-bottom: 20px;
 }
-.linkimg img {
+.linkimg img, .linkimg a {
   width: 100%;
   max-width: 300px;
   height: auto;
   object-fit: cover;
+  border: 3px solid black;
 }
 
 .linktexto {
@@ -118,6 +123,12 @@ h1, h2 {
     margin-bottom: 0;
     height: auto;
   }
+}
+footer, form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  margin: 2rem;
 }
 
 /*# sourceMappingURL=estilo.css.map */
