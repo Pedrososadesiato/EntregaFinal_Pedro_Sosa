@@ -43,47 +43,66 @@
         
     </strong>
 
-    
+   
 
-        <form class="formulariocontacto" action="">
+        
+        <form class="formulariocontacto formulario" action="">
             
-        <div>
+            
             
             <label for="Salida">Fecha de salida</label>   
             <input type="date" name="Salida" id="Salida">
-        </div>
-        
-        <label for="Regreso">Fecha de regreso</label>
-        <input type="date" name="" id="Regresp">
-        
-        
-        <input placeholder="Origen del viaje" type="text" id="origen">
-        
-        
-        <input placeholder="Destino del viaje" type="text">
-        
-        
-        
-        <input placeholder="Cantidad de pasajeros" type="text">
-        
-        <input placeholder="Edades de los pasajeros" type="text">
-        
-        
-        <label for="hola"></label>
-        <input placeholder="Email" type="email" name="" id="">
-        
-    </form>
+            
+            
+            <label for="Regreso">Fecha de regreso</label>
+            <input type="date" name="" id="Regreso">
+            
+            <label for="">Origen del viaje</label>
+            <input list="lista-origen" type="text" placeholder="Selecciona tu país de origen">
+            <datalist id="lista-origen" value="">
+                <option value="Argentina"></option>
+                <option value="Sudamérica"></option>
+                <option value="Europa"></option>
+                <option value="Asia"></option>
+                <option value="Norteamérica"></option>
+                <option value="Oceanía"></option>
+                
+            </datalist>
+            
+            <label for="">Destino del viaje</label>
+            <input list="lista-origen" type="text" placeholder="Selecciona tu país de origen">
+            <datalist id="lista-origen" value="">
+                <option value="Argentina"></option>
+                <option value="Sudamérica"></option>
+                <option value="Europa"></option>
+                <option value="Asia"></option>
+                <option value="Norteamérica"></option>
+                <option value="Oceanía"></option>
+                
+            </datalist>
+            
+            
+            <input placeholder="Cantidad de pasajeros" type="text">
+            
+            <input placeholder="Edades de los pasajeros" type="text">
+            
+            
+            <label for="hola"></label>
+            <input placeholder="Email" type="email" name="" id="">
 
+            <button class="boton-formulario">Enviar</button>
+            
+        </form>
+        
+        
+        
+        
+        
+        
+        
+    </main>
     
-    
-    
-    
-    
-    
-    
-</main>
-
-<footer>
+    <footer>
 
     
     <form action="">

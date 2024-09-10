@@ -64,8 +64,33 @@
     font-size: 20px;
     text-decoration: none;
    }
+
    
-   
+
+   .formulariocontacto, input {
+    
+    background-color: #00000a;
+    color: #ffffff;
+    border-radius: 20px;
+    
+    justify-content: center;
+   }
+
+    select{
+    background-color: #000000;
+    border: 5px solid #ccc;
+
+   }
+
+   ::placeholder{
+    color: #ffffff;
+   }
+    button:hover{
+
+        transform: scale(1.2);
+    
+        
+    }
 
     
     @media only screen and (min-width:501px){
